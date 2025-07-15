@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pytesseract
+python-multipart
+scikit-learn
+spacy
+joblib
