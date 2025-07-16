@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 from PIL import Image
-import joblib
 import torch
 from torchvision import transforms
 import torchvision.models as models
