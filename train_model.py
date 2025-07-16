@@ -88,9 +88,7 @@ for epoch in range(num_epochs):
         best_val_acc = val_acc
         torch.save(model.state_dict(), "trained_model.pth")
 
-    if val_acc >= 0.90:
-        print("✅ Se alcanzó al menos 90% de accuracy en validación. Deteniendo entrenamiento.")
-        break
+
 
 # Evaluación final en test
 model.load_state_dict(torch.load("trained_model.pth"))
